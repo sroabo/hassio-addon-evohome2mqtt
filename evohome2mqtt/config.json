@@ -6,6 +6,7 @@
   "description": "Connecte Evohome à MQTT",
   "startup": "services",
   "boot": "auto",
+  "arch": ["aarch64", "armv7", "amd64"],
   "ports": {},
   "options": {
     "mqtt_host": "homeassistant.local",
